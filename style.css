@@ -1,16 +1,15 @@
-
-@media all and (max-width: 1024px)
+@media screen and (max-width: 625px)
 {
-	#bloc_page
-	{
-		width: auto;
-
-	}
+/* propriétés pour mobile */
+}
+@media screen and (max-width: 976px)
+{
+/* propriétés pour tablette */
 }
 
-
+.dont_float_mobile { float: none; }
 .page{
-    width:960px;
+    width:100%;
     margin: auto;
 
 }

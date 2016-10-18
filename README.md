@@ -1,2 +1,1 @@
-# exo-responcive-groupe
-exo responcive g
+# exo-responsive a finir

@@ -333,10 +333,67 @@ footer a{
 /* couleur des div image #77BFD8 #7D75B3 #E4928A #DFB790 #889ED5 #7AAE95 */
 
 
-@media screen and (max-width: 600px)
-{
-		.width: auto;
-    .ban.parahead {display:none;}
+@media screen and (max-width:600px) {
 
-	}
+  .ban {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 100%;
+      color: #FFF;
+      padding: 20px;
+  }
+
+  .parahead {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+  }
+
+.bloc1, .bloc2, .bloc3{
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  width: 100%;
+}
+
+.bloc1 article, .bloc2 article, .bloc3 article{
+  flex:1;
+}
+
+
+
+
+  .contact{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+  }
+
+  .formulaire{
+    margin: 0;
+    width: 100%;
+  }
+
+  .duoinput{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+
+  aside{
+    width: 100%;
+  }
+
+  footer{
+    padding: 20px;
+  }
+
+  footer ul{
+    margin: auto;
+  }
+
 }

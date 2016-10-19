@@ -1,19 +1,9 @@
-@media screen and (max-width: 625px)
-{
-/* propriétés pour mobile */
-}
-@media screen and (max-width: 976px)
-{
-/* propriétés pour tablette */
-}
 
-.dont_float_mobile { float: none; }
+
 .page{
     width:100%;
     margin: auto;
-
 }
-
 
 
 
@@ -96,6 +86,12 @@ header a
 
 /* Section image */
 
+.
+{
+    background-color: #black,
+    transition: all 0.5s;
+}
+
 .imagedumilieu{
 	display: flex;
 	flex-direction: column;
@@ -133,17 +129,52 @@ header a
 	background-size: cover;
 }
 
+.bloc1 div{
+  opacity: 1.0;
+  fliter:alpha(opacity=80%)
+  border:0;
+}
+
+.bloc1 div:hover  {
+
+  opacity: 0.5;
+  filter:alpha(opacity=50);
+   border:0;
+
+  }
+
+
+
+
 .bloc1 article{
 	background-repeat: no-repeat center fixed;
 	background-image: url("images/pic02.jpg");
 	background-size: cover;
+
 }
+
+.bloc1 article{
+
+  -webkit-filter: brightness(50%);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+
+.bloc1 article:hover{
+  -webkit-filter: brightness(10%);
+}
+
 
 .bloc2 article{
 	background-repeat: no-repeat center fixed;
 	background-image: url("images/pic03.jpg");
 		background-size: cover;
 }
+
+
 
 .bloc2 div{
 	background-repeat: no-repeat center fixed;
@@ -164,6 +195,8 @@ header a
 	background-size: cover;
 
 }
+
+
 
 /* End section image */
 
@@ -192,23 +225,27 @@ header a
 	color: #232947;
 }
 
+
+
 #effacer {
 	margin:10px;
 	height: 50px;
 	width: 150px;
 	border:solid 2px white;
 }
+
+
 .duobouton{
 	display: flex;
 	flex-direction: row;
+
+
 }
 
 .duoinput{
 	display: flex;
 	flex-direction: column;
 	width: 225px;
-
-
 }
 
 form input {
@@ -217,37 +254,50 @@ form input {
 
 }
 
+
 .nomemail {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 	margin-bottom: 30px;
 }
+
+
 textarea {
 	height: 170px;
 	background-color: rgba(212,212,255,0.035);
 	border: inherit;
 }
 
+
 label {
 	margin-bottom: 10px;
 }
+
 
 .contact{
 	display: flex;
 	justify-content: space-between;
 }
+
+
 section form{
 	display: flex;
 	flex-direction: row;
 }
+
+
 section form label{
 
 }
+
+
 section form input{
 	height: 50px;
 	background-color: rgba(35,41,71,0.1);
 }
+
+
 aside a{
 	color: white;
 }
@@ -263,12 +313,16 @@ footer ul{
 	flex-direction: row;
 	margin: 10px;
 }
+
+
 footer li{
 	margin: 15px;
 }
 
+
 footer{
 	background-color: #232947;
+
 
 }
 footer a{
@@ -277,3 +331,12 @@ footer a{
 /*end footer*/
 /* couleur bleu clair #2A2F4A*/
 /* couleur des div image #77BFD8 #7D75B3 #E4928A #DFB790 #889ED5 #7AAE95 */
+
+
+@media screen and (max-width: 600px)
+{
+		.width: auto;
+    .ban.parahead {display:none;}
+
+	}
+}

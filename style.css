@@ -333,67 +333,22 @@ footer a{
 /* couleur des div image #77BFD8 #7D75B3 #E4928A #DFB790 #889ED5 #7AAE95 */
 
 
-@media screen and (max-width:600px) {
+@media screen and (max-width: 600px)
+{
+		.width: auto;
+    .ban.parahead {display:none;}
 
-  .ban {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      width: 100%;
-      color: #FFF;
-      padding: 20px;
-  }
-
-  .parahead {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-
-  }
-
-.bloc1, .bloc2, .bloc3{
-  display: flex;
-  flex-direction: column;
-  height: 400px;
-  width: 100%;
-}
-
-.bloc1 article, .bloc2 article, .bloc3 article{
-  flex:1;
-}
-
-
-
-
-  .contact{
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-
-  }
-
-  .formulaire{
-    margin: 0;
-    width: 100%;
-  }
-
-  .duoinput{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-
-
-  aside{
-    width: 100%;
-  }
-
-  footer{
-    padding: 20px;
-  }
-
-  footer ul{
-    margin: auto;
-  }
-
+    .bloc1 div {width: 8.33%;}
+    .bloc1 article {width: 16.66%;}
+    .bloc2 div {width: 25%;}
+    .bloc2 article {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+	}
 }
